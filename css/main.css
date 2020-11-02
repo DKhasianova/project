@@ -1,0 +1,488 @@
+@font-face {
+    font-family:Gilroy-Medium;
+    src: url("../fonts/Gilroy-Medium.ttf");
+}@font-face {
+    font-family:Tavolga-Regular;
+    src: url("../fonts/Tavolga-Regular.ttf");
+}
+@font-face {
+    font-family:Gilroy-Bold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family:Gilroy-Ex-Bold;
+    src: url("../fonts/Gilroy-Extrabold.ttf");
+}@font-face {
+    font-family:Gilroy-Regular;
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+body{
+    margin: 0;
+}
+#header{
+    background:rgb(235, 168, 177);
+}
+#header-container{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 35px;
+
+}
+.logo{
+
+    display: flex;
+}
+#header .logo a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Tavolga-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+.phone{
+    font-size: 16px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.phone-footer{
+    font-size: 16px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#menu{
+    margin: 0 320px 0 225px;
+    width: 322px;
+    display: flex;justify-content: space-between;
+}
+#menu a{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(119, 11, 29);
+    border-bottom: 1px solid transparent;
+
+}
+#menu a:hover{
+    border-color: #ab5e68;
+}
+#main{
+    background:rgb(235, 168, 177);
+
+}
+#main-container{
+    max-width: 1140px;
+    padding-top: 170px;
+    margin: 0 auto;
+    display: flex;
+}
+#main-info{
+    max-width: 585px;
+}
+#main-title h1{
+    font-size: 55px;
+    font-family: "Tavolga-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.091;
+    text-align: left;
+    margin: 0;
+
+}
+#main-text{
+    font-size: 18px;
+    font-family: "Tavolga-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    text-align: left;
+    margin-bottom: 91px;
+    margin-top: 67px;
+    max-width: 345px;
+}
+.btn{
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    outline: 0;
+    box-sizing: border-box;
+    border: 0;
+    width: 237px;
+    border-radius: 59px;
+    height: 59px;
+}
+#main-image{
+    padding-bottom: 116px;
+}
+#macaroon{
+    background: #ffefef;
+    padding-top: 117px;
+    padding-bottom: 85px;
+}
+#macaroon-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+#macaroon-title{
+    font-size: 45px;
+    font-family: "Tavolga-Regular", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    max-width: 476px;
+    margin-bottom: 59px;
+}
+.macaroons-zdj{
+    margin-top: 114px;
+}
+#macaroon-text{
+    font-size: 18px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 407px;
+}
+#macaroon-info{
+    margin-right: 145px;
+}
+.macaroon-list-title{
+    max-width: 215px;
+    font-size: 20px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 2.25;
+}
+.macaroon-list-text{
+    max-width: 215px;
+    font-size: 15px;
+    font-family: "Gilroy-Medium", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+}
+#block{
+
+    position: relative;
+    background: #ffefef;
+    padding-bottom: 123px;
+}
+#macaroon-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.number-one{
+    font-size: 60px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 26px;
+    padding-left: 16px;
+}
+#block-container{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/*
+}.number-one{
+    font-size: 60px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    position: absolute;
+
+}.number-one{
+    font-size: 60px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    position: absolute;
+
+}.number-one{
+    font-size: 60px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.75;
+    position: absolute;
+
+}
+/
+ */
+.ellipse{
+    position: relative;
+}
+.foto-macaroon{
+    border: 2px solid white;
+    display: inline-block;
+    position: relative;
+
+}
+#taste{
+
+    background: #eba8b1;
+
+}
+#taste-container{
+
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#main-taste{
+    font-size: 45px;
+    font-family: "Tavolga-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.222;
+    padding-top: 120px;
+    text-align: center;
+    padding-bottom: 142px;
+}
+.foto-macaroon-div{
+    margin-right: 12px;
+    margin-left: 12px;;
+}
+#macaroon-menu{
+    display: flex;
+
+    padding-bottom: 157px;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+.taste-title{
+    font-size: 18px;
+    font-family: "Tavolga-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+    text-align: center;
+}
+.pc, .taste-price{
+    font-size: 15px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+}
+.hidden{
+    display: none;
+}
+.price{
+    display: inline-block;
+    vertical-align: middle;
+}
+.taste-btn{
+    vertical-align: middle;
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    font-size: 16px;
+    font-family: "Gilroy-Ex-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    outline: 0;
+    border: 0;
+    border-radius: 26px;
+    width: 129px;
+    height: 55px;
+}
+.foto-macaroon{
+    padding-left: 17px;
+    padding-bottom: 26px;
+    padding-right: 19px;
+    padding-top: 110px;
+    border-radius: 28px;
+}
+.price{
+    padding-right: 31px;
+}
+#strawberry-container{
+    max-width: 1140px;
+
+    margin: 0 auto;
+    display: flex;
+
+    position: relative;
+
+}
+#strawberry-title{
+    font-size: 45px;
+    font-family: "Tavolga-Regular",sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    margin-bottom: 54px;
+}
+#strawberry-text{
+    font-size: 18px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    max-width: 405px;
+}
+.your-choice{
+    font-size: 15px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(118, 12, 34);
+    background-color: rgb(255, 239, 239);
+    width: 263px;
+    border: 1px solid rgb(118, 12, 34);
+    outline: 0;
+    border-radius: 40px;
+    display: block;
+
+    padding: 17px;
+    margin-bottom: 16px;
+}
+.choice-title{
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(18, 10, 6);
+}
+input.your-choice::placeholder{
+    color:rgb(118, 12, 34) ;
+}
+.ellipse-number{
+    background: #821328;
+    border-radius: 50%;
+    position: relative;
+    height: 67px;
+    width: 67px;
+    text-align: center;
+}
+.oone{
+
+    font-size: 60px;
+    font-family: "Gilroy-Ex-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 92px;
+}
+.form{
+    font-size: 18px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(18, 10, 6);
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.insta-text{
+    padding-top: 12px;
+}
+
+.choice-title{
+    margin-bottom: 20px;
+}
+#choice{
+    margin-top: 55px;
+}
+#your-order{
+    margin-left: 140px;
+    position: relative;
+}
+#strawberry-big-sss{
+    position: absolute;
+    left: -548px;
+    top: 79px;
+}
+.btn-strawberry{
+    font-size: 18px;
+    font-family: "Gilroy-Bold", sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    background-image: -moz-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(113,8,30) 0%, rgb(215,72,92) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 298px;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+#strawberry{
+    background: #ffefef;
+    padding-top: 57px;
+    padding-bottom: 119px;
+
+}
+#small-strawberry{
+    position: absolute;
+    right: 189px;
+    bottom: 149px;
+}
+#strawberry-big-ss{
+    position: absolute;
+    left: -50px;
+    top: 85px;
+}
+#strawberry-big{
+    position: absolute;
+    left: 0;
+    top: 47px;
+}
+.insta-svg{
+    fill: white;
+    width: 34px;
+    height: 34px;
+
+}
+#insta{
+    text-align: center;
+}
+#footer {
+    background: #c0707c;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+#footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer .logo-footer a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Tavolga-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+
+}
+.svg-hidden{
+    display: none;
+}
+#insta div{
+    font-size: 16px;
+    font-family: "Gilroy-Bold",sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#policy{
+    font-size: 12px;
+    font-family: "Gilroy-Regular",sans-serif;
+    color: rgb(227, 172, 180);
+    margin-top: 18px;
+}
+.macarooon{
+    position: absolute;
+    top: -59px;
+
+    padding-left: 15px;
+}
+#menu .menu-item:hover{
+    border-bottom: 2px solid #ab5e68;
+    outline: 0;
+    box-sizing: border-box;
+}
+#insta a{
+    text-decoration: none;
+}

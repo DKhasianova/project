@@ -1,0 +1,655 @@
+/*1024-1229*/
+@media screen and (max-width: 1229px) {
+
+
+
+    #block{
+        padding-bottom: 140px;
+    }
+    .phone {
+        display: none
+    }
+
+    #header-container {
+        padding-left: 20px;
+    }
+
+    #menu {
+        margin: 0 212px 0 100px;
+    }
+
+    #main {
+        padding-left: 20px;
+
+    }
+
+    #main-container {
+        padding-top: 93px;
+        padding-bottom: 50px;
+    }
+
+    #block {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #macaroon {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .macaroon-list-text {
+        max-width: 213px;
+    }
+
+    #main-taste {
+        padding-bottom: 120px;
+    }
+
+    .foto-macaroon {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #taste-container {
+        padding-left: 20px;
+
+    }
+
+    #small-strawberry {
+        right: 89px;
+    }
+
+    #strawberry-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #strawberry-big {
+        left: 33px;
+    }
+
+    #footer-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #macaroon-list{
+        max-width: 602px;
+        margin: 0 auto;
+    }
+    #macaroon-menu{
+        max-width: 546px;
+        margin: 0 auto;
+    }
+    .foto-macaroon{
+        margin-bottom: 82px;
+        margin-top: 29px;
+    }
+    #main-taste{
+        text-align: center;
+        padding-bottom: 103px;
+    }
+    #strawberry-big-sss{
+        left: -529px;
+        top: 86px;
+    }
+    #macaroon-list-one{
+        margin-bottom: 56px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #macaroon-list-two{
+        margin-bottom: 56px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #macaroon-list-three{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    #macaroon-list-four{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    .foto-macaroon-div{
+        margin: 0 auto;
+    }
+
+}
+/*768-1023*/
+@media screen and (max-width: 1023px){
+#strawberry-big-sss{
+    left: 364px;
+    top: 268px;
+}
+    #macaroon-text{
+        margin: 0 auto;
+    }
+    #macaroon-list-two
+    {
+        padding-bottom: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #block{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #macaroon-list-one{
+        padding-bottom: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #macaroon-list-three{
+        padding-bottom: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #macaroon-list-four{
+        padding-bottom: 45px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .ellipse-number{
+        margin: 0 auto;
+    }
+#main{
+    padding-bottom: 418px;
+}
+    #main-container{
+        position: relative;
+        max-width: 600px;
+    }
+    #main-info{
+        display: flex;
+        flex-direction: column;
+    }
+    #main-image{
+        position: absolute;
+        bottom: -439px;
+        left: 140px;
+    }
+    #strawberry-big{
+        left: 400px;
+        top: 150px;
+    }
+    #small-strawberry{
+        right: 115px;
+        top: 100px;
+
+    }
+#macaroon-container{
+    display: block;
+}
+#macaroon-info{
+    margin-right: 0;
+}
+#macaroon-title{
+    max-width:642px;
+    text-align: center;
+    margin: 0 auto 70px;
+}
+#macaroon-text{
+    max-width: 682px;
+    text-align: center;
+    padding-bottom: 45px;
+}
+#macaroon-image{
+    text-align: center
+}
+.three{
+    top:241px;
+   left: 162px;
+}
+.four{
+    top: 241px;
+    right: 187px;
+}
+.one{
+    left: 162px;
+}
+.two{
+    right: 185px;
+}
+#macaroon-list{
+    max-width: 642px;
+    text-align: center;
+    margin: 0 auto 70px;
+}
+#macaroon-info{
+
+}
+.mango{
+    top: -59px;
+}
+.vanila{
+    top: -61px;
+
+}
+.pistachia{
+    top: -63px;
+
+}
+.rasberry{
+    top: -63px;
+    padding-left: 15px;
+}
+#macaroon-menu{
+    max-width: 528px;
+    margin: 0 auto;
+}
+.foto-macaroon{
+    margin-bottom: 82px;
+}
+#main-taste{
+    text-align: center;
+}
+#strawberry-container{
+    flex-direction: row-reverse;
+    padding-right: 0;
+}
+.macaroons-zdj{
+    margin-top: 294px;
+
+}
+#strawberry-container{
+    align-items: end;
+}
+#your-order{
+    margin-left:0;
+}
+#small-strawberry{
+    top: 159px;
+}
+#strawberry-big{
+    top: 295px;
+    left: 350px;
+}
+}
+/*425-767*/
+@media screen and (max-width: 767px){
+#main-container{
+    margin: 0 auto;
+}
+    #main-info{
+        margin: 0 auto;
+    }
+#main-title{
+    margin: 0 auto 70px;
+}
+    #main-title h1{
+
+        text-align: center;
+    }
+#main-text{
+    margin: 0 auto 70px;
+    text-align: center;
+}
+.btn{
+    margin: 0 auto 70px;
+}
+#strawberry-container{
+    flex-direction: column;
+}
+#strawberry-big-ss{
+    top: 214px;
+
+    left: 233px;
+}
+.foto-macaroon-div{
+    margin: 0 auto;
+}
+#your-order{
+    margin: 0 auto;
+}
+
+    #macaroon-list-one{
+        padding-right: 30px;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+    #macaroon-list-two{
+        margin: 0 auto;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #macaroon-list-three{
+        margin: 0 auto;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    #macaroon-list-four{
+        margin: 0 auto;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .svg-hidden{
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #821328;
+        padding-right: 20px;
+    }
+#menu{
+    display: none;
+}
+
+    .macaroon-tt{
+        width: 100%
+    }
+    #main-image{
+        bottom: -466px;
+        left: 20px;
+    }
+    .big-macarooon{
+        width: 294px;
+        height: 174px;
+    }
+    .one{
+        left: 177px;
+    }
+    .two{
+        right: 222px;
+        top: 240px;
+    }
+    .three{
+        top: 454px;
+        left: 179px;
+    }
+    .four{
+        top: 670px;
+        right: 222px;
+    }
+    .pistachia{
+        top: 904px;
+    }
+    .vanila{
+        top: 582px;
+    }
+
+    .rasberry{
+        bottom: 450px;
+    }
+    .mango{
+        top: 266px;
+    }
+    .macaroons-zdj{
+        display: none;
+    }
+    #small-strawberry{
+        display: none;
+    }
+
+    #footer-container{
+        flex-direction: column-reverse;
+    }
+    .hidden{
+        display: block;
+        text-align: center;
+        margin-bottom: 37px;
+        font-size: 18px;
+        font-family: "Tavolga-Regular",sans-serif;
+        color: rgb(255, 255, 255);
+    }
+    #insta{
+        margin-top: 37px;
+    }
+    .hidden{
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Tavolga-Regular", sans-serif;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+    }
+    .logo-footer{
+        display: none;
+    }
+    #strawberry-big{
+        top: 162px;
+        left: 240px;
+    }
+    #macaroon-list{
+        margin: 0 auto 70px;
+    }
+    #strawberry-big-sss{
+        left: 221px;
+        top: 162px;
+    }
+}
+/*375-424*/
+@media screen and (max-width: 424px){
+   #strawberry-title{
+       font-size: 40px;
+
+   }
+    #strawberry-big-ss{
+        top: 223px;
+        left: 233px;
+    }
+    .foto-macaroon-div{
+        margin: 0 auto;
+    }
+    #macaroon-list-one{
+
+        margin: 0 auto;
+    }
+    #macaroon-list-two{
+        margin: 0 auto;
+
+    }
+    #macaroon-list-three{
+        margin: 0 auto;
+
+    }
+    #macaroon-list-four{
+        margin: 0 auto;
+
+    }
+    #macaroon-title{
+        font-size: 30px;
+    }
+    #main-title h1{
+        font-size: 32px;
+        text-align: center;
+
+    }
+    #main-text{
+        text-align: center;
+    }
+    .btn{
+        margin: 0 auto;
+    }
+    .macaroon-tt{
+        width: 342px;
+
+    }
+    #main-image{
+        bottom: -447px;
+        left: 0;
+    }
+    #menu{display: none}
+
+.big-macarooon{
+    width: 294px;
+    height: 174px;
+}
+.one{
+    left: 164px;
+}
+.two{
+    right: 165px;
+    top: 240px;
+}
+.three{
+    top: 454px;
+    left: 162px;
+}
+.four{
+    top: 670px;
+    right: 166px;
+}
+.pistachia{
+    top: 904px;
+}
+.vanila{
+    top: 582px;
+}
+
+.rasberry{
+    bottom: 450px;
+}
+.mango{
+    top: 266px;
+}
+#macaroon-menu{
+
+}
+.macaroons-zdj{
+    display: none;
+}
+#small-strawberry{
+    display: none;
+}
+#strawberry-big{
+    top: 234px;
+    left: 240px;
+}
+#footer-container{
+    flex-direction: column-reverse;
+}
+.hidden{
+    display: block;
+    text-align: center;
+    margin-bottom: 37px;
+    font-size: 18px;
+    font-family: "Tavolga-Regular",sans-serif;
+    color: rgb(255, 255, 255);
+}
+#insta{
+    margin-top: 37px;
+}
+.hidden{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Tavolga-Regular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.logo-footer{
+    display: none;
+}
+.svg-hidden{
+    display: block;
+    width: 24px;
+    height: 24px;
+    fill: #821328;
+    padding-right: 20px;
+}
+.macaroon-tt{
+    width: 100%;
+}
+}
+/*320-374*/
+@media screen and (max-width: 374px){
+#main-title h1{
+        font-size: 32px;
+    text-align: center;
+
+}
+  .one{
+      left: 131px;
+  }
+  .two{
+      right: 146px;
+      top: 240px;
+  }
+  .three{
+      top: 454px;
+      left: 127px;
+  }
+
+
+    .four {
+        top: 670px;
+        right: 147px;
+    }
+
+#macaroon-list{
+    margin: 0 auto;
+}
+
+
+
+    .svg-hidden{
+        display: block;
+        width: 24px;
+        height: 24px;
+        fill: #821328;
+        padding-right: 20px;
+    }
+
+    #macaroon-title{
+        font-size: 30px;
+    }
+
+
+    .mango{
+        top: 298px;
+    }
+    .vanila{
+        top: 653px;
+    }
+    .pistachia{
+        top: 1011px;
+    }
+    #strawberry-container{
+        flex-direction:inherit ;
+    }
+    #strawberry-big-sss{
+        left: 217px;
+        top: 235px;
+
+    }
+    #macaroon-list-one{
+        padding-right:0;
+        padding-left: 0;
+
+        margin: 0 auto;
+    }
+    #macaroon-list-two{
+        padding-right:0;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    #macaroon-list-four{
+        padding-right:0;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    #macaroon-list-three{
+        padding-right:0;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    #taste-container{
+        padding-left: 0;
+    }
+    #main-taste{
+        font-size: 30px;
+    }
+    #block{
+        padding-bottom: 19px;
+    }
+    #macaroon-menu{
+        padding-bottom: 86px;
+    }
+    .your-choice{
+        width: 249px;
+    }
+    .btn-strawberry{
+        width: 283px;
+    }
+    .macaroon-tt{
+        width: 100%;
+    }
+}
